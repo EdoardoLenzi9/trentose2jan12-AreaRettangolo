@@ -25,3 +25,5 @@ test('should getArea() return -1 when pass wrong type parameters', () => {
     expect(areaUtils.getArea(["1","2","3"])).toBe(-1);
     expect(areaUtils.getArea(null)).toBe(-1);
 });
+
+
